@@ -1,12 +1,10 @@
 # PioneerDays
 
-Это проект "Пионерские будни" для уроков настоящего :D
+Это проект с кодовым названием "Пионерские будни"!
 
-Как лучше запускать:
+# Инструкции по инсталляции
 1. Скачать программу [](https://neuroplay.ru/downloads/neuroplaypro/)NeuroPlayPro (https://neuroplay.ru/downloads/neuroplaypro/)
-2. Скачать файл test.edf и открыть NeuroPlayPro. Перейти в Устройства -> Настройки -> Расширенные настройки -> Вирутальные устройства -> Включить отладочные устройства -> загрузить test.edf
-3. Скачать файл pythonProject3.exe и извлечь.
-4. Открыть файл wedoinitialize.py
-5. Установить необходимые библиотеки
-6. Запустить скрипт
-7. Успех!
+2. `git clone https://github.com/NightyStudios/PioneerDays`
+3. В NeuroPlayPro перейти в Устройства -> Настройки -> Расширенные настройки -> Вирутальные устройства -> Включить отладочные устройства -> Загрузить test.edf
+4. `pip install -r requirements.txt`
+5. `python wedoinitialize.py`
